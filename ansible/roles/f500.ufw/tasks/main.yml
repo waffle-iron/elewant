@@ -1,0 +1,7 @@
+---
+
+- name: install ufw
+  apt: pkg=ufw state=present
+
+- name: enable and start ufw
+  command: ufw -f enable
