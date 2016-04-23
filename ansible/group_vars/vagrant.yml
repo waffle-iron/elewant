@@ -11,13 +11,14 @@ php_opcache_revalidate_freq: 0
 php_fpm_display_errors: 1
 mariadb_bind_address: 0.0.0.0
 
+php_xdebug_versions: ["fpm"]
 php_xdebug_profiler_enable: 1
 php_xdebug_remote_enable: 1
 php_xdebug_remote_connect_back: 1
 php_xdebug_idekey: "PHPSTORM"
 
 elewant_server_name: "elewant.loc"
-elewant_fastcgi_index: "index.php"
+elewant_fastcgi_index: "app_dev.php"
 elewant_application_env: "dev"
 elewant_root: "/vagrant"
 elewant_web_root: "/vagrant/web"
